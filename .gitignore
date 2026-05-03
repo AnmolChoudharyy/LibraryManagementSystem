@@ -1,0 +1,28 @@
+# Compiled Java
+*.class
+out/
+bin/
+
+# Database file (don't commit actual data)
+*.db
+*.db-shm
+*.db-wal
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.eclipse
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Keep lib folder tracked (for JDBC jar)
+!lib/
